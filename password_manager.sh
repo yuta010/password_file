@@ -8,5 +8,6 @@ read user_name
 echo "パスワードを入力してください："
 read -s password 
 echo "Thank you!"
-
+						
+# サービス名等をpassword.txtに保存します。		
 echo "$service_name:$user_name:$password" >>password.txt
